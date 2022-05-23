@@ -11,7 +11,138 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 
-.main-container {}
+.main-container {
+    width: 80%;
+    margin: 0% auto;
+    /*     background-color: yellow;
+ */
+}
+
+.section-1 {
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.section-1-title {
+    padding: 20px;
+    font-size: 40px;
+}
+
+p {
+    padding: 20px;
+}
+
+.app-store {
+    height: 40px;
+    width: 150px;
+    display: block;
+    line-height: 20px;
+    background-color: royalblue;
+    color: antiquewhite;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.section-1 img {
+    height: 300px;
+    width: 300px;
+    flex-grow: 1;
+}
+
+/* section-2 */
+
+.section-2 {
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.section-2-img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-2-title {
+    font-size: 28px;
+}
+
+/* section-3 */
+
+.section-3 {
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.section-3-img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-3-title {
+    font-size: 28px;
+}
+
+/* section-4 */
+
+.section-4 {
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.section-4-img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-4-title {
+    font-size: 28px;
+}
+
+/* section-5 */
+
+.section-5 {
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.section-5-img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-5-title {
+    font-size: 28px;
+}
